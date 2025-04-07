@@ -28,5 +28,9 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           context: .
+          file: ./Dockerfile
           push: true
-          tags: pyatnovov/cv
+          tags: pyatnovov/zct
+
+
+          
